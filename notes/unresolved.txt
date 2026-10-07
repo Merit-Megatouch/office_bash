@@ -7,16 +7,5 @@ TwDrvFifo_ioctl | libtouchscreen.so
 TwDrvFifo_open | libtouchscreen.so
 TwDrvFifo_read | libtouchscreen.so
 TwDrvFifo_write | libtouchscreen.so
-debug_check_address(void*) | libmerit2d.so
-debug_check_address(void*) | libmeritbasegame.so
-Heartbeat_WaitForAll(unsigned long, bool) | libmeritbasegame.so
 NetGlobals::NetSpriteUnRegister(NetSprite*, unsigned char) | libmeritbasegame.so
-MyMeritManager::GetGameLevel(xml_gameinfo::GameIds) | libmeritbasegame.so
-MyMeritManager::SetGameLevel(xml_gameinfo::GameIds, int) | libmeritbasegame.so
-MyMeritManager::Instance() | libmeritbasegame.so
 USBIO::JoystickFound() | libmeritbasegame.so
-MyMeritManager::PlayerLoaded() const | libmeritbasegame.so
-MyMeritManager::Name() const | libmeritbasegame.so
-voice_check | office_bash.so
-voice_ramp_volume | office_bash.so
-voice_stop | office_bash.so
